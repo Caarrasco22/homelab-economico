@@ -1,8 +1,14 @@
 # Homelab Económico / Budget Homelab
 
-> Proyecto personal de homelab construido con hardware reutilizado, Proxmox VE, contenedores Linux, Raspberry Pi, DNS local, reverse proxy, monitorización, red de laboratorio y acceso remoto privado.
+![Homelab](https://img.shields.io/badge/type-homelab-blue)
+![Proxmox](https://img.shields.io/badge/platform-Proxmox-orange)
+![Raspberry Pi](https://img.shields.io/badge/device-Raspberry%20Pi-red)
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Security](https://img.shields.io/badge/security-private%20by%20design-green)
+
+> Proyecto personal de homelab construido con hardware reutilizado y de bajo coste, usando Proxmox VE, contenedores Linux, Raspberry Pi, DNS local, reverse proxy, monitorización, red de laboratorio y acceso remoto privado.
 >
-> Personal homelab project built with reused/low-cost hardware, Proxmox VE, Linux containers, Raspberry Pi, local DNS, reverse proxy, monitoring, a lab network and private remote access.
+> Personal homelab project built with reused and low-cost hardware, using Proxmox VE, Linux containers, Raspberry Pi, local DNS, reverse proxy, monitoring, a dedicated lab network and private remote access.
 
 ![Topología pública del homelab](/topology-public.png)
 
