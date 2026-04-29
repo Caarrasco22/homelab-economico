@@ -11,7 +11,7 @@
 > Personal homelab project built with reused and low-cost hardware, using Proxmox VE, Linux containers, Raspberry Pi, local DNS, reverse proxy, monitoring, a dedicated lab network and private remote access.
 
 <p align="center">
-  <img src="homelab_network_topology_diagram_in_spanish.png" alt="Homelab topology diagram" width="900">
+  <img src="topology-public.png" alt="Homelab topology diagram" width="900">
 </p>
 
 > [!NOTE]
