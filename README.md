@@ -140,7 +140,7 @@ La evolución prevista del homelab es segmentar mejor la red usando OPNsense com
 ### Proxmox VE summary
 
 <p align="center">
-  <img src="/screenshots/proxmox-inventary.png" alt="Proxmox VE summary dashboard with sanitized host information" width="900">
+  <img src="screenshots/proxmox-inventary.png" alt="Proxmox VE summary dashboard with sanitized host information" width="900">
 </p>
 
 ### Uptime Kuma monitoring
