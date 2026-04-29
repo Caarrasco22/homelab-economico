@@ -10,7 +10,16 @@
 >
 > Personal homelab project built with reused and low-cost hardware, using Proxmox VE, Linux containers, Raspberry Pi, local DNS, reverse proxy, monitoring, a dedicated lab network and private remote access.
 
-![Topología pública del homelab](/topology-public.png)
+<p align="center">
+  <img src="homelab_network_topology_diagram_in_spanish.png" alt="Homelab topology diagram" width="900">
+</p>
+
+> [!NOTE]
+> Este repositorio evita publicar credenciales reales, endpoints públicos, hostnames privados, direcciones exactas de acceso remoto o archivos de configuración sensibles.  
+> El objetivo es documentar la arquitectura y el aprendizaje sin exponer el entorno.
+>
+> This repository intentionally avoids publishing real credentials, public endpoints, private hostnames, exact remote-access addresses or sensitive configuration files.  
+> The goal is to document the architecture and learning process without exposing the environment.
 
 ## Español
 
