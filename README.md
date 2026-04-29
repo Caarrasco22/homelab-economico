@@ -12,14 +12,24 @@
 
 ## Table of contents / Índice
 
-- [Overview / Resumen](#overview--resumen)
-- [Architecture / Arquitectura](#architecture--arquitectura)
+- [Español](#español)
+  - [Objetivo del proyecto](#objetivo-del-proyecto)
+  - [Principios de seguridad y privacidad](#principios-de-seguridad-y-privacidad)
+  - [Topología resumida](#topología-resumida)
+  - [Servicios principales](#servicios-principales)
 - [Services / Servicios](#services--servicios)
-- [Security approach / Enfoque de seguridad](#security-approach--enfoque-de-seguridad)
-- [Documentation / Documentación](#documentation--documentación)
+  - [CT 102: Debian Files/Web](#ct-102-debian-filesweb)
+  - [CT 106: ProxBot v1](#ct-106-proxbot-v1)
+  - [Diseño futuro](#diseño-futuro)
+  - [Documentación](#documentación)
 - [Screenshots / Capturas](#screenshots--capturas)
-- [Roadmap / Hoja de ruta](#roadmap--hoja-de-ruta)
-
+  - [Proxmox VE summary](#proxmox-ve-summary)
+  - [Uptime Kuma monitoring](#uptime-kuma-monitoring)
+- [English](#english)
+  - [Project goal](#project-goal)
+  - [Main components](#main-components)
+- [Security approach / Enfoque de seguridad](#security-approach--enfoque-de-seguridad)
+  - [Privacy notice](#privacy-notice)
 <p align="center">
   <img src="topology-public.png" alt="Homelab topology diagram" width="900">
 </p>
@@ -182,8 +192,8 @@ The goal is not to build a perfect enterprise-grade environment, but to create a
 - Cloudflare Tunnel for temporary external sharing.
 - Samba and Python 3 HTTP server for local/temporary file sharing.
 - ProxBot v1, a Discord bot under development for homelab learning and management.
-- 
- ## Security approach / Enfoque de seguridad
+-
+- ## Security approach / Enfoque de seguridad
 
 This homelab is designed with privacy and controlled exposure in mind:
 
