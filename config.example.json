@@ -1,0 +1,16 @@
+{
+  "proxmox": {
+    "host": "https://proxmox.lab:8006",
+    "verify_ssl": false
+  },
+  "services": {
+    "pihole": "http://pihole.lab/admin",
+    "uptime_kuma": "http://kuma.lab",
+    "vaultwarden": "http://vault.lab",
+    "nginx_proxy_manager": "http://npm.lab"
+  },
+  "discord_bot": {
+    "prefix": "!",
+    "status_channel_id": "REPLACE_WITH_CHANNEL_ID"
+  }
+}

@@ -1,0 +1,29 @@
+# Secrets
+.env
+*.env
+config.json
+secrets.json
+*.key
+*.pem
+*.crt
+*.p12
+
+# Cloudflare / tunnels
+cloudflared.yml
+cert.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local/private docs
+private/
+notes-private/
