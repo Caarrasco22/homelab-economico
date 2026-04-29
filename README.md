@@ -132,6 +132,23 @@ La evolución prevista del homelab es segmentar mejor la red usando OPNsense com
 
 ---
 
+## Screenshots / Capturas
+
+> Screenshots are sanitized before being published.  
+> Las capturas se revisan y censuran antes de publicarse para evitar exponer datos sensibles.
+
+### Proxmox VE summary
+
+<p align="center">
+  <img src="assets/screenshots/proxmox-summary.png" alt="Proxmox VE summary dashboard with sanitized host information" width="900">
+</p>
+
+### Uptime Kuma monitoring
+
+<p align="center">
+  <img src="assets/screenshots/uptime-kuma-overview.png" alt="Uptime Kuma monitoring dashboard with sanitized service names" width="900">
+</p>
+
 ## English
 
 ### Project goal
