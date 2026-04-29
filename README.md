@@ -10,6 +10,16 @@
 >
 > Personal homelab project built with reused and low-cost hardware, using Proxmox VE, Linux containers, Raspberry Pi, local DNS, reverse proxy, monitoring, a dedicated lab network and private remote access.
 
+## Table of contents / Índice
+
+- [Overview / Resumen](#overview--resumen)
+- [Architecture / Arquitectura](#architecture--arquitectura)
+- [Services / Servicios](#services--servicios)
+- [Security approach / Enfoque de seguridad](#security-approach--enfoque-de-seguridad)
+- [Documentation / Documentación](#documentation--documentación)
+- [Screenshots / Capturas](#screenshots--capturas)
+- [Roadmap / Hoja de ruta](#roadmap--hoja-de-ruta)
+
 <p align="center">
   <img src="topology-public.png" alt="Homelab topology diagram" width="900">
 </p>
