@@ -172,6 +172,28 @@ The goal is not to build a perfect enterprise-grade environment, but to create a
 - Cloudflare Tunnel for temporary external sharing.
 - Samba and Python 3 HTTP server for local/temporary file sharing.
 - ProxBot v1, a Discord bot under development for homelab learning and management.
+- 
+ ## Security approach / Enfoque de seguridad
+
+This homelab is designed with privacy and controlled exposure in mind:
+
+- No permanent router port forwarding.
+- Remote access through private VPN-style tooling.
+- Temporary external sharing only when needed.
+- Public documentation is sanitized.
+- Real credentials, tokens, MAC addresses and private endpoints are not published.
+- Internal services are mainly designed for LAN usage.
+
+---
+
+Este homelab está diseñado priorizando privacidad y exposición controlada:
+
+- Sin puertos permanentes abiertos en el router.
+- Acceso remoto mediante herramientas privadas tipo VPN.
+- Compartición externa temporal solo cuando hace falta.
+- Documentación pública revisada y censurada.
+- No se publican credenciales, tokens, MACs ni endpoints privados.
+- Los servicios internos están pensados principalmente para uso en LAN.
 
 ### Privacy notice
 
