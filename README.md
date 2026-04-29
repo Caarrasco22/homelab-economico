@@ -65,17 +65,19 @@ La red se divide en una red principal doméstica y una red de laboratorio:
 
 ### Servicios principales
 
-| Servicio | Ubicación | Rol |
-|---|---|---|
-| Proxmox VE | Host principal | Virtualización, LXC, VMs, snapshots y gestión del laboratorio |
-| Pi-hole principal | CT 100 | DNS local y bloqueo de publicidad |
-| Uptime Kuma | CT 101 | Monitorización y alertas |
-| Debian Files/Web | CT 102 | Samba, Nginx, Python HTTP server y Cloudflare Tunnel temporal |
-| Vaultwarden | CT 103 | Gestor de contraseñas self-hosted |
-| OPNsense | VM 104 | Firewall del laboratorio, NAT y red separada |
-| Debian Lab | VM 105 | Cliente de pruebas dentro de la red de laboratorio |
-| ProxBot v1 | CT 106 | Bot de Discord en desarrollo para gestión/aprendizaje del homelab |
-| Raspberry Pi 4 | Equipo externo al host Proxmox | Pi-hole secundario, Nginx Proxy Manager y Tailscale |
+## Services / Servicios
+
+| Service | Type | Purpose | Exposure |
+|---|---|---|---|
+| Proxmox VE | Host | Virtualization platform | Local only |
+| Pi-hole | LXC | DNS filtering and local DNS | Local only |
+| Uptime Kuma | LXC | Service monitoring | Local only |
+| Debian Files/Web | LXC | Samba, Nginx, Python HTTP server, Cloudflare Tunnel | Temporary tunnel |
+| Vaultwarden | LXC | Password manager lab service | Local only |
+| OPNsense | VM | Firewall and lab network testing | Lab network |
+| Debian Lab | VM | Client machine for network testing | Lab network |
+| ProxBot v1 | LXC | Discord bot for homelab management | Development |
+| Raspberry Pi | Physical node | Pi-hole secondary, NPM, Tailscale | Local + private VPN |
 
 ### CT 102: Debian Files/Web
 
